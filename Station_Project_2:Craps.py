@@ -23,7 +23,7 @@ def roll():
   return _sum
 
 
-output_1 = roll()  # we assign the sum of two dices from the FIRST roll is assigned to the variable output_1.
+output_1 = roll()  # the sum of two dices from the FIRST roll is assigned to the variable output_1.
 
 # next, the program checks on wheither the sum of the roll is from winning or losing lists
 
