@@ -31,7 +31,7 @@ if output_1 in PLAYER_WINS:
   result = "Congratulations, You won!"
 elif output_1 in CASINO_WINS:
   result = "Unfortunalty, You lost"
-else:  # if the sum is 4, 5, 6, 8, 9 or 10, that number becomes the goal number.
+else:  # if the sum is 4, 5, 6, 8, 9 or 10, that number becomes the goal number
   goal_number = output_1
   print(f"So far you neither win nor lost, now your goal number is {goal_number}. Roll the dices.")
   time.sleep(2) 
